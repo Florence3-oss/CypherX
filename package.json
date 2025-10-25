@@ -1,6 +1,6 @@
 {
   "name": "CypherX",
-  "version": "1.8.0",
+  "version": "1.8.3",
   "description": "The best Whatsapp bot",
   "main": "index.js",
   "engines": {
@@ -9,9 +9,9 @@
    },
   "scripts": {
       "start": "node index.js",
-      "dev": "nodemon index.js",
+      "dev": "nodemon cypher.js",
       "stop": "pkill -f node",
-      "restart": "npm stop && npm start",
+      "restart": "pkill -f node && npm start",
       "test": "echo \"Error: no test specified\" && exit 1"
    },
   "author": "Tylor",
